@@ -13,7 +13,7 @@ function clearDisplay(){
 function calculate(){
     try{
            display.value = eval(display.value)
-           
+           //display.value = 'Usuario invalido'
     }
     catch(error){
         display.value = 'Erro'
