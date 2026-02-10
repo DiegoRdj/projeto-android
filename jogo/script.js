@@ -1,6 +1,8 @@
 const mario = document.querySelector('.mario')
 const pipe = document.querySelector('.pipe')
 
+
+
 function restartGame() {
     location.reload()
 }
